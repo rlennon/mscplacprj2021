@@ -49,8 +49,8 @@ Project Deadline
 
 Useful Links
 
-    DC Slack: https://lyit.slack.com/archives/G01317VQNH2
-    GitHub: https://github.com/rlennon/mscplacprj2021
+    Slack:   https://app.slack.com/client/T84LE6L6R/C0232F5G9T7/thread/G01M3CHRS73-1622563457.004900
+    GitHub:  https://github.com/rlennon/mscplacprj2021
     Buy-Out Presentation: 
     Project close out presentation: 
 
