@@ -25,12 +25,8 @@ Product Owner
 
 Ruth G. Lennon
 Team Members
-Jorge
-Phani
-Sonia
-Elizabeth
-Matthew
-Stephanie
+Sharon
+Sunoj
 
 Project Deadline
 
