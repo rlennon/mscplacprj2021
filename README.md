@@ -50,8 +50,7 @@ Project Deadline
 Useful Links
 
     DC Slack: https://lyit.slack.com/archives/G01317VQNH2
-    Jira: 
-    GitHub: https://github.com/rlennon/ConnachtUni
+    GitHub: https://github.com/rlennon/mscplacprj2021
     Buy-Out Presentation: 
     Project close out presentation: 
 
