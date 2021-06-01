@@ -17,8 +17,7 @@ Table of Contents
 
 Preamble
 
-This is the online repository for the Connacht University. Due to Covid they find that they suddenly need a fast solution to switch their courses to an online offering. Note that they also provide services to small local business and startups.  Services include administrative, funding, room booking and so on. Your team has been requested to design a solution to be provided to the customer in seven weeks time. You should use slack, jira, github (repository to follow) and AWS to work out your solution.
-
+This is the online repository for the CleanerCode. We are moving forward from Waterfall and Spreadsheets for project management.
 
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 Product Owner
