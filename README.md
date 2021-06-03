@@ -17,6 +17,7 @@ Table of Contents
 
 Preamble
 
+This is the online repository for the CleanerCode. We are moving forward from Waterfall and Spreadsheets for project management.
 Some text here.
 
 
@@ -26,14 +27,9 @@ Product Owner
 
 Ruth G. Lennon
 Team Members
-<<<<<<< HEAD
-<team member names>
-       
-=======
 Sharon
 Sunoj
 
->>>>>>> develop
 Project Deadline
 
 <timeline > UTC/GMT
@@ -55,14 +51,9 @@ Project Deadline
 
 Useful Links
 
-<<<<<<< HEAD
-    Slack:   https://app.slack.com/client/T84LE6L6R/C0232F5G9T7/thread/G01M3CHRS73-1622563457.004900
-    GitHub:  https://github.com/rlennon/mscplacprj2021
-=======
     DC Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
     Jira: 
     GitHub: https://github.com/rlennon/ConnachtUni
->>>>>>> develop
     Buy-Out Presentation: 
     Project close out presentation: 
 
