@@ -53,7 +53,7 @@ Useful Links
 
     DC Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
     Jira: 
-    GitHub: https://github.com/rlennon/ConnachtUni
+    GitHub: https://github.com/rlennon/mscplacprj2021
     Buy-Out Presentation: 
     Project close out presentation: 
 
