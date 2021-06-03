@@ -51,14 +51,9 @@ Project Deadline
 
 Useful Links
 
-<<<<<<< HEAD
-    Slack:   https://app.slack.com/client/T84LE6L6R/C0232F5G9T7/thread/G01M3CHRS73-1622563457.004900
-    GitHub:  https://github.com/rlennon/mscplacprj2021
-=======
     DC Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
     Jira: 
     GitHub: https://github.com/rlennon/ConnachtUni
->>>>>>> develop
     Buy-Out Presentation: 
     Project close out presentation: 
 
