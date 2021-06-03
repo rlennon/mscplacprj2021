@@ -109,7 +109,7 @@ Social Contract
 
 Meetings
 
-    Stand-ups will occur on <Day and time x 2> GMT.
+    Stand-ups will occur on Tuesdays and Fridays 9 PM GMT.
     The order that people give their updates will be based on alphabetical order of those present at the meeting.
     Updates will be in the form: What I've done, What I plan to do, Impediments
     Sprint planning will occur <day and time>.
