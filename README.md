@@ -176,12 +176,12 @@ The teams current story point velocity is "<Choose the number!>".
 Scrum Master
 Week 1: Sharon
 Week 2: Sunoj
-Week 3: Sharon (unless other team members join)
-Week 4: Sunoj 
-Week 5: Sharon
-Week 6: Sunoj
+Week 3: George
+Week 4: Sharon 
+Week 5: Sunoj
+Week 6: George
 Week 7: Sharon
 Week 8: Sunoj
-Week 9: Sharon
-Week 10: Sunoj
+Week 9: George
+Week 10: Sharon
 
