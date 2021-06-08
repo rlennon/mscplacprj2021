@@ -53,7 +53,7 @@ Project Deadline
 Useful Links
 
     DC Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
-    Jira: 
+    Jira: Utilizing Github Project Tasks to manage project tasks
     GitHub: https://github.com/rlennon/mscplacprj2021
     Buy-Out Presentation: 
     Project close out presentation: 
@@ -102,9 +102,16 @@ Tenants of Design
         automated creation and deployments
         integrated and automated pipeline (commit -> test -> deploy)
     Github version control:
-        branches used
+        Branches
+              Develop, 
+              Release
+              Main
         version/release management
-    Agile project management methods/principles (jira)
+              Release versioning
+                    x.0 for project deliverables and enhancements
+                    x.x for bug fixes                            
+    Agile project management methods/principles
+       Github Project Taks for managing project tasks and deliverables
 
 Social Contract
 
@@ -130,8 +137,9 @@ Meetings
 Communication
 
     Slack is the preferred method of communication.
+       Utilize Slack threads to keep subject items and conversations together
     If a demonstration is required use <tool>, record the session and upload to the Slack channel.
-    No Slack communications between "<Time and Timezone>".
+    No Slack communications between 9am and 5pm Irish Standard Time.
     Raise a problem as soon as you see it.
     Respect each other and understand differences in knowledge.
     All team documents are to be created using Markdown language and shared on GitHub.
@@ -154,10 +162,10 @@ Communication
 
 Other
 
-    Sprints will start <Day of Week>.
+    Sprints will start Wednesday.
     The Scrum Master role rotates each week, the schedule is available on the on the process section
     Jira will be used for task management and planning.
-    Each member of the team will work <realistic number of hours> per week, unless they are on vacation.
+    Each member of the team will work 6 per week, unless they are on vacation.
 
 Estimating Story Points Within Jira
 
@@ -166,5 +174,14 @@ The teams team's velocity is calculated by dividing the the number of points bur
 The teams current story point velocity is "<Choose the number!>".
 
 Scrum Master
-Week 1: <name>
-Week 2: <name>
+Week 1: Sharon
+Week 2: Sunoj
+Week 3: Sharon (unless other team members join)
+Week 4: Sunoj 
+Week 5: Sharon
+Week 6: Sunoj
+Week 7: Sharon
+Week 8: Sunoj
+Week 9: Sharon
+Week 10: Sunoj
+
