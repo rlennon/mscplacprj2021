@@ -2,18 +2,26 @@
 
 ## Table of Contents
 
-       Table of Contents
-        Preamble
-            Product Owner
-            Rockstars
-        Project Deadline
-        Project Specification
-        Considerations
-        Useful Links
-            For more information visit our other sections
-        Risk Register
-        Tenants of Design
-        Social Contract
+  * [Preamble]()
+    * [Product Owner]()
+    * [Team Members]()
+  * [Project Deadline]()
+  * [Project Specification]()
+  * [Considerations]()
+  * [Useful Links]()
+    * For more information visit our other sections
+  * [Risk Register]()
+  * [Tenants of Design]()
+  * [Social Contract]()
+    * [Meetings]()
+    * [Communication]()
+    * [Other]()
+      * [Estimating Story Points]()
+      * [Scrum Master]()
+  * [Workflow]()
+
+   
+   
 
 ## Preamble
 
@@ -32,7 +40,7 @@ Our product will be delivered using an Agile methodology that embraces the DevOp
 
 ## Project Deadline
 
-       timeline on BB UTC/GMT
+**timeline on BB UTC/GMT**
 
 ## Project Specification
     
@@ -43,25 +51,28 @@ Our product will be delivered using an Agile methodology that embraces the DevOp
     Database persistence technology
     Define the buisness Requirements
 
+## Considerations
+       <To be filled>
 ## Useful Links
 
-    Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
-    GitHub Tasks: to manage project tasks
-    GitHub: https://github.com/rlennon/mscplacprj2021
+* Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
+* GitHub Tasks: to manage project tasks
+* GitHub: https://github.com/rlennon/mscplacprj2021
     
 ### For more information visit our other sections
-                            Section 	                     Description
-                            Process 	                     Describes the companies process
-                            Project Log 	                     Log of project activities
-                            Costings 	                     Overview of the project cost
-                            Architecture 	                     Outlines the architecture
-                            Environments 	                     Overview of the environment set-up
-                            DR Plan 	                     Disaster Recovery Plan and procedures
-                            Requirements 	                     Overview of the requirements for the project
-                            SLAs 	                            Service level agreements
-                            Risk Management 	              How we manage risk
-                            Security 	                     Overview of security
-                            Project Log 	                     Team log for the project
+Section | Description
+--------| -------------
+Process | Describes the companies process
+Project Log | Log of project activities
+Costings | Overview of the project cost
+Architecture | Outlines the architecture
+Environments | Overview of the environment set-up
+DR Plan | Disaster Recovery Plan and procedures
+Requirements | Overview of the requirements for the project
+SLAs | Service level agreements
+Risk Management | How we manage risk
+Security | Overview of security
+Project Log | Team log for the project
        
 ## Risk Register
 
@@ -151,21 +162,21 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Don't be afraid to give constructive critism, as long as it is constructive.
     Solve roadblocks within the team. If the impediment can’t be solved within the team then give it to the Scrum Master.
 
-## Other
+### Other
 
     Sprints will start Wednesday.
     The Scrum Master role rotates each week, the schedule is available on the on the process section
     Jira will be used for task management and planning.
     Each member of the team will work 6 hours per week, unless they are on vacation.
 
-### Estimating Story Points 
+#### Estimating Story Points 
 Within Planning Poker
 
 The teams team's velocity is calculated by <dividing the the number of points burned each sprint divided by no of sprints>. The Velocity chart is used for this calculation.
 
 The teams current story point velocity is "<Choose the number!>".
 
-### Scrum Master
+#### Scrum Master
        
        Week 1: Sharon
        Week 2: Sunoj
@@ -177,5 +188,5 @@ The teams current story point velocity is "<Choose the number!>".
        Week 8: Sunoj
 
 
-### Workflow 
+## Workflow 
      "<To be discussed>" 
