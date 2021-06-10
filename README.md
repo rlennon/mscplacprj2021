@@ -1,6 +1,6 @@
 # mscplacprj2021
 
-Table of Contents
+## Table of Contents
 
        Table of Contents
         Preamble
@@ -15,27 +15,26 @@ Table of Contents
         Tenants of Design
         Social Contract
 
-Preamble
+## Preamble
 
 This is the online repository for the CleanerCode. We are moving forward from Waterfall and Spreadsheets for project management.
-Some text here.
-
 
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
-Product Owner
+### Product Owner
 
-Ruth G. Lennon
-Team Members
-Sharon
-Sunoj
-George
+       Ruth G. Lennon
+       
+### Team Members
+       Sharon
+       Sunoj
+       George
 
-Project Deadline
+## Project Deadline
 
-timeline on BB UTC/GMT
+       timeline on BB UTC/GMT
 
-      Project Specification
+## Project Specification
     
     Clean and simple design
 
@@ -44,13 +43,13 @@ timeline on BB UTC/GMT
     Database persistence technology
     Define the buisness Requirements
 
-#Useful Links
+## Useful Links
 
     Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
     GitHub Tasks: to manage project tasks
     GitHub: https://github.com/rlennon/mscplacprj2021
     
-For more information visit our other sections
+### For more information visit our other sections
 Section 	Description
 Process 	Describes the companies process
 Project Log 	Log of project activities
@@ -63,7 +62,8 @@ SLAs 	Service level agreements
 Risk Management 	How we manage risk
 Security 	Overview of security
 Project Log 	Team log for the project
-Risk Register
+       
+## Risk Register
 
 These are the current Risks on the project, re-aligned on a weekly basis
 
@@ -72,7 +72,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Unknown technology choices has led to a lot of upskilling required
     Changing / ambiguous requirements
 
-Tenants of Design
+## Tenants of Design
 
     Dedication to clean, secure, performant and self documented code
         code Frameworks used
@@ -104,9 +104,9 @@ Tenants of Design
     Agile project management methods/principles
         Github Project Tasks for managing project tasks and deliverables
 
-Social Contract
+## Social Contract
 
-Meetings
+### Meetings
 
     Stand-ups will occur on Tuesdays 9pm and Fridays 9 PM GMT.
     The order that people give their updates will be based on alphabetical order of those present at the meeting.
@@ -125,7 +125,7 @@ Meetings
     Keep your language and tone professional at all times.
     Be honest.
 
-# Communication
+### Communication
 
     Slack is the preferred method of communication.
        Utilize Slack threads to keep subject items and conversations together
@@ -151,29 +151,31 @@ Meetings
     Don't be afraid to give constructive critism, as long as it is constructive.
     Solve roadblocks within the team. If the impediment can’t be solved within the team then give it to the Scrum Master.
 
-Other
+## Other
 
     Sprints will start Wednesday.
     The Scrum Master role rotates each week, the schedule is available on the on the process section
     Jira will be used for task management and planning.
     Each member of the team will work 6 hours per week, unless they are on vacation.
 
-Estimating Story Points Within Planning Poker
+### Estimating Story Points 
+Within Planning Poker
 
 The teams team's velocity is calculated by <dividing the the number of points burned each sprint divided by no of sprints>. The Velocity chart is used for this calculation.
 
 The teams current story point velocity is "<Choose the number!>".
 
-Scrum Master
-Week 1: Sharon
-Week 2: Sunoj
-Week 3: George
-Week 4: Sharon 
-Week 5: Sunoj
-Week 6: George
-Week 7: Sharon
-Week 8: Sunoj
-
-
-# Workflow (Sunoj)
+### Scrum Master
        
+       Week 1: Sharon
+       Week 2: Sunoj
+       Week 3: George
+       Week 4: Sharon 
+       Week 5: Sunoj
+       Week 6: George
+       Week 7: Sharon
+       Week 8: Sunoj
+
+
+### Workflow 
+     "<To be discussed>" 
