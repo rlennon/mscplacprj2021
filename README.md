@@ -50,18 +50,18 @@ Our product will be delivered using an Agile methodology that embraces the DevOp
     GitHub: https://github.com/rlennon/mscplacprj2021
     
 ### For more information visit our other sections
-Section 	Description
-Process 	Describes the companies process
-Project Log 	Log of project activities
-Costings 	Overview of the project cost
-Architecture 	Outlines the architecture
-Environments 	Overview of the environment set-up
-DR Plan 	Disaster Recovery Plan and procedures
-Requirements 	Overview of the requirements for the project
-SLAs 	Service level agreements
-Risk Management 	How we manage risk
-Security 	Overview of security
-Project Log 	Team log for the project
+                            Section 	                     Description
+                            Process 	                     Describes the companies process
+                            Project Log 	                     Log of project activities
+                            Costings 	                     Overview of the project cost
+                            Architecture 	                     Outlines the architecture
+                            Environments 	                     Overview of the environment set-up
+                            DR Plan 	                     Disaster Recovery Plan and procedures
+                            Requirements 	                     Overview of the requirements for the project
+                            SLAs 	                            Service level agreements
+                            Risk Management 	              How we manage risk
+                            Security 	                     Overview of security
+                            Project Log 	                     Team log for the project
        
 ## Risk Register
 
