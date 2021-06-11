@@ -95,8 +95,10 @@ These are the current Risks on the project, re-aligned on a weekly basis
     
     Testing:
         Unit testing
+	Automated acceptance testing
+	Exploratory testing
         integretation testing
-        UA
+        UAT (user Acceptance testing)
         
     Environments:
         staging and production
