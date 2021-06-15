@@ -30,6 +30,11 @@ This is the online repository for the CleanerCode. We are moving forward from Wa
 
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
+CleanerCode is a very large company with many divisions. The task is to create pipelines for development work. This is an internal project. 
+* Create a pipeline in GitHub. Using early prototyping to establish what is needed. 
+* Write scripts to automate pipelines for any future projects the company may work on. 
+* Use the prototype pipeline to manage the scripts to demonstrate the value of pipelines
+
 ### Product Owner
 
        Ruth G. Lennon
