@@ -106,15 +106,11 @@ These are the current Risks on the project, re-aligned on a weekly basis
         automated creation and deployments
         integrated and automated pipeline (commit -> test -> deploy)
     Github version control:
-        Branches
-              Documentation
-              Develop 
-              Release
-              Main
+        [Branching Strategy](../docs/branching.md)
         version/release management
-              Release versioning
-                    x.0 for project deliverables and enhancements
-                    x.x for bug fixes                            
+            Release versioning
+                x.0 for project deliverables and enhancements
+                x.x for bug fixes                            
     Agile project management methods/principles
         Github Project Tasks for managing project tasks and deliverables
 
@@ -169,7 +165,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
     Sprints will start Wednesday.
     The Scrum Master role rotates each week, the schedule is available on the on the process section
-    Jira will be used for task management and planning.
+    GitHub Projects will be used for task management and planning.
     Each member of the team will work 6 hours per week, unless they are on vacation.
 
 #### Estimating Story Points 
@@ -192,4 +188,4 @@ The teams current story point velocity is "<Choose the number!>".
 
 
 ## Workflow 
-     "<To be discussed>" 
+    The team has decided to go with Git Flow workflow strategy proposed by <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">Vincent Driessen</a>for the project. 
