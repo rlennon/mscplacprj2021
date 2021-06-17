@@ -195,4 +195,4 @@ The teams current story point velocity is "<Choose the number!>".
 
 
 ## Workflow 
-     "<To be discussed>" 
+    The team has decided to go with Git Flow workflow strategy proposed by [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/){:target="_blank"} for the project. 
