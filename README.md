@@ -109,15 +109,11 @@ These are the current Risks on the project, re-aligned on a weekly basis
         automated creation and deployments
         integrated and automated pipeline (commit -> test -> deploy)
     Github version control:
-        Branches
-              Documentation
-              Develop 
-              Release
-              Main
+        [Branching Strategy](docs/branching.md)
         version/release management
-              Release versioning
-                    x.0 for project deliverables and enhancements
-                    x.x for bug fixes                            
+            Release versioning
+                x.0 for project deliverables and enhancements
+                x.x for bug fixes                            
     Agile project management methods/principles
         Github Project Tasks for managing project tasks and deliverables
 
@@ -195,4 +191,4 @@ The teams current story point velocity is "<Choose the number!>".
 
 
 ## Workflow 
-    The team has decided to go with Git Flow workflow strategy proposed by [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/){:target="_blank"} for the project. 
+The team has decided to go with Git Flow workflow strategy proposed by [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/){:target="_blank"} for the project. The details can be found [here](docs/branching.md)
