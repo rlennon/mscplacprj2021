@@ -17,4 +17,5 @@ are as follows:
 * **tfsec**                     [tfsec](https://github.com/rlennon/mscplacprj2021/security/code-scanning)
 * **OSSAR**                     [OSSAR](https://github.com/rlennon/mscplacprj2021/security/code-scanning)
 * **CodeQL Analysis**           [CodeQL Analysis](https://github.com/rlennon/mscplacprj2021/security/code-scanning)
+* **Code Inspector**            [Code Inspector](https://github.com/marketplace/actions/code-inspector-github-action)
 
