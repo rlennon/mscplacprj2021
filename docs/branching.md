@@ -15,7 +15,7 @@ We use supporting branhes with finite life time, apart from the above discussed,
     * hotfix branches
 
 #### Feature Branches
-    All feature branches may branch off from develop and must be merged back into develop. Naming convention must be: anything except main, develop, release-*, or hotfix-*.
+All feature branches may branch off from develop and must be merged back into develop. Naming convention must be: anything except main, develop, release-*, or hotfix-*.
 
 ##### To Create a Feature Branch
     $ git checkout -b newfeature develop
@@ -30,14 +30,14 @@ We use supporting branhes with finite life time, apart from the above discussed,
     $ git push origin develop
 
 #### Hotfixes 
-    In a situation where a bug with catastrophic consequences has been discovered in production, the team uses a hotfix bracnh for the purpose of fixing the bug in question. It may branch off from the main and must merge back into the main and develop.
+In a situation where a bug with catastrophic consequences has been discovered in production, the team uses a hotfix bracnh for the purpose of fixing the bug in question. It may branch off from the main and must merge back into the main and develop.
 
-    * naming convention: hotfix-*
+    naming convention: hotfix-*
 
 #### Releases
-    The team can use release branches to support preparation of a new production release. It may branch off from the develop and must merge back into the main and develop. 
+The team can use release branches to support preparation of a new production release. It may branch off from the develop and must merge back into the main and develop. 
 
-    * naming convention: release-*
+    naming convention: release-*
 
 
 
