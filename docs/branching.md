@@ -6,13 +6,15 @@ Our team agreed to follow Git Flow branching startegy after discussing other opt
 
 ## The Main Branches
 The following are the main braches for the central repository of the project.
-    * main: the default branch with infinite life time containing all finished work and all deployments will be taking place from here.
-    * develop: a branch with infinite life time parellel to the main branch and developers create branches from the develop branch and work on new features. 
+
+* main: the default branch with infinite life time containing all finished work and all deployments will be taking place from here.
+* develop: a branch with infinite life time parellel to the main branch and developers create branches from the develop branch and work on new features. 
 ### Supporting Branches
 We use supporting branhes with finite life time, apart from the above discussed, for a wide range of reasons such as parellel development, quick fixing bugs, develop new features, production releases. These may include:
-    * feature branches
-    * release branches
-    * hotfix branches
+
+* feature branches
+* release branches
+* hotfix branches
 
 #### Feature Branches
 All feature branches may branch off from develop and must be merged back into develop. Naming convention must be: anything except main, develop, release-*, or hotfix-*.
