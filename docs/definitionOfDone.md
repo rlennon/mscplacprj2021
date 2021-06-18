@@ -1,5 +1,5 @@
 # Definition of Done
-The team has discussed and agreed th following definition of done for a task of the project whereever applicable.
+The team has discussed and agreed some of the following definition of done for a task of the project whereever applicable. Further discussion will be there in the coming stand up.
 * Fully completed, commented code ran against current version in source control
 * Code must be peer reviewd or produced with pair programming and must have development standards
 * It builds without errors
