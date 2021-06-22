@@ -30,6 +30,11 @@ This is the online repository for the CleanerCode. We are moving forward from Wa
 
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
+CleanerCode is a very large company with many divisions. The task is to create pipelines for development work. This is an internal project. 
+* Create a pipeline in GitHub. Using early prototyping to establish what is needed. 
+* Write scripts to automate pipelines for any future projects the company may work on. 
+* Use the prototype pipeline to manage the scripts to demonstrate the value of pipelines
+
 ### Product Owner
 
        Ruth G. Lennon
@@ -106,15 +111,11 @@ These are the current Risks on the project, re-aligned on a weekly basis
         automated creation and deployments
         integrated and automated pipeline (commit -> test -> deploy)
     Github version control:
-        Branches
-              Documentation
-              Develop 
-              Release
-              Main
+        [Branching Strategy](docs/branching.md)
         version/release management
-              Release versioning
-                    x.0 for project deliverables and enhancements
-                    x.x for bug fixes                            
+            Release versioning
+                x.0 for project deliverables and enhancements
+                x.x for bug fixes                            
     Agile project management methods/principles
         Github Project Tasks for managing project tasks and deliverables
 
@@ -169,7 +170,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
     Sprints will start Wednesday.
     The Scrum Master role rotates each week, the schedule is available on the on the process section
-    Jira will be used for task management and planning.
+    GitHub Projects will be used for task management and planning.
     Each member of the team will work 6 hours per week, unless they are on vacation.
 
 #### Estimating Story Points 
@@ -192,4 +193,4 @@ The teams current story point velocity is "<Choose the number!>".
 
 
 ## Workflow 
-     "<To be discussed>" 
+The team has decided to go with Git Flow workflow strategy proposed by [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/) for the project. The details can be found [here](docs/branching.md)
