@@ -11,7 +11,7 @@ The following services are selected for further discussion with the team so that
 * [AWS ECR](#AWS-ECR)
 * [Azure Container Registry](#Azure-Container-Registry)
 <!-- * [JFrog Artifactory](#JFrog-Artifactory) -->
-
+After discussion our team has decided to choose Docker Hub private repository to store the builds for this project based on factors  such as cost, easiness of creating and managing, security concerns.
 ## GitHub Packages Registry
 
 Among the supported GitHub Packages registries Container Regsitry can be considered.
