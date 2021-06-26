@@ -42,6 +42,9 @@ Follow the below steps if not having a private DockerHub Repository.
 3. Click Repositories and click create new
 4. Fill the fields for user ID, project name, optional description, and Check Private.
 5. From [Account Security](https://hub.docker.com/settings/security) create New Access Token for GitHub by following the instructions there. The token created must be saved for future use.
-6. In GitHub goto the settings of the project Repository and click Secrets and create new Repository Secrets a. DOCKER_USERNAME (Value = DockerHub user ID), b. DOCKER_PASSWORD (Value = Acces Token value), c. DOCKER_REPO (Value = Name of The Private DockerHub Repository)
+6. In GitHub goto the settings of the project Repository and click Secrets and create new Repository Secrets:
+ a. DOCKER_USERNAME (Value = DockerHub user ID), 
+ b. DOCKER_PASSWORD (Value = Acces Token value), 
+ c. DOCKER_REPO (Value = Name of The Private DockerHub Repository)
 
 The actions workflow docker-image.yml will push the image created to the DockerHub repository when a push event happens to the main branch. Please have a look at the file for other features enabled like tags, versioning. This workflow is adapted from [Build and push Docker images](https://github.com/marketplace/actions/build-and-push-docker-images).
