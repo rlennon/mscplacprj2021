@@ -21,5 +21,5 @@ FROM openjdk:11-jre-slim
 
 WORKDIR /lyit
 
-COPY --from=build target/IbanValidator-*.jar ./apps/sample_app-*.jar
+COPY --from=build target/sample_app-*.jar ./apps/sample_app-*.jar
 CMD ["java", "-jar", "./apps/sample_app-*.jar"]
