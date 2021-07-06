@@ -1,0 +1,76 @@
+# Proposed IaC for AWS/Azure
+
+AWS offers the following to define Infrastructure as code:
+
+1. AWS CloudFormation
+    * allows users to model infrastructure within JSON or YAML template file.
+    * automation features to help with deployment of resources in a repeatable and manageable way.
+    * Use of AWS CloudFormation Registry to model and provision third-party resources and modules published by AWS Partner
+      Networks (APN).
+    * can build own resource providers using AWS CloudFormation CLI.
+    * AWS CDK (open-source software development framework) can be used to model cloud application resources using familiar
+      programming languages (Java, Python, TypeScript, .NET to mention a few).
+    * use AWS Serverless Application Model (SAM) to build serverless applications faster.
+    * CloudFormation automates provisioning and updating of infrastructure in a safe and controlled manner. Use of "Rollback Triggers"
+      to roll back entire stack operations to a previously deployed state. Also use of "ChangeSets" to preview proposed changes that
+      CloudFormation intends to make to infrastructure and application resources prior to execution.
+    * Dependency management.
+
+2. AWS Cloud Development Kit (CDK)
+    * an open-source software development framework to model and provision cloud application resources using familiar 
+      programming languages.
+    * enables the modelling of application infrastructure using TypeScript, Python, Java, and .NET.
+    * existing developer IDE can be leveraged, leveraging tools like autocomplete and in-line documentation to accelerate 
+      the development of infrastructure.
+    * utilizes AWS CloudFormation in the background to provision resources. 
+    * constructs are the basic bulding blocks of CDK code. Constructs represent a cloud component and encapsulates everything
+      AWS CloudFormation needs to create the component.
+    * Includes the "AWS Construct Library" containing constructs representing many AWS services. Quick and easy creation of
+      complex architectures for deployment in AWS can be achieved through the combination of constructs together.
+
+3. AWS Cloud Development Kit for Kubernetes (CDK8s)
+    * an open-source software development framework for defining Kubernetes application using general-purpose programming 
+    languages.
+    * On completion of the definition of an application in programming language (Python & TypeScript supported), CDK8s converts 
+      the application description to a "Pre-Kubernetes YML" which is then consumed by any Kubernetes cluster running anywhere.
+    * abstraction features of the programming language in use can be used to create boiler-plate code, which in turn can be 
+      reused across all the deployments.
+
+
+Within the Azure domain, the following tools can be used or integrated:
+
+1. Azure Resource Management Template
+    * provision infrastructure and handle dependencies in one seamless cycle through Azure Resource Manager templates
+      (ARM templates).
+    * resources template tap into are declaratively described within JSON & multtiple Azure resources can be declared
+      in one ARM template to establish whole project environments.
+    * same template can be reused an infinite amount of times.
+    * use of Visual Studio Team System (VSTS) dashboard to visually monitor all builds and releases, and get a 
+      quick overview of the overall health of environments and quality of the templates.
+    * supports grouping of server instances and the unified management of groups.
+
+2. Terraform
+    * it is completely cloud-agnostic and helps in tackling large infrastructure for complex distributed applications.
+    * can provision cloud-native applications across all the major cloud players including Azure.
+    * it is also idempotent, meaning the same template can be reused an infinite amount of times.
+    * automation comes in various shapes and is orchestrated in varying degrees with the focus on the core plan/apply 
+      cycle. Can be run locally using wrapper scripts or run entirely within an alternat orchestration tool such as 
+      "Jenkins".
+    * by far the most adaptable tool in the market according to the literature.
+    * also supports change and provisioning previews & has capable features for replicating deployments and 
+      individual server instances.
+
+3. Azure CLI Scripts and Tasks
+    * can be leveraged to declaratively script cloud infrastructure
+    * scripts can be created, found, and shared to provision and configure almost any Azure resource.
+    * scripts are executed within either PowerShell or Bash and straightforward to debug, especially when compared  with ARM templates.
+    * particularly suited for tearing down and redeploying infrastructure.
+    * can be embedded in Azure DevOps pipelines as "Azure CLI tasks". Executing the pipeline invokes the script.
+
+
+    Cons
+    * Updating an existing environment can be TRICKY.
+    * Many CLI commands aren't idempotent, meaning that they'll recreate the resource each time
+      they run, even if the resource already exists.
+    * workaround for the above results in a situation where scripts can become bloated and difficult to
+     manage.
