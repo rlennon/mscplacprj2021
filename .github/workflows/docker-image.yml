@@ -15,7 +15,7 @@ jobs:
     steps:
       - name:  Install
         run:
-          apt install important_linux_software
+          sudo apt install important_linux_software
       -
         name: Checkout
         uses: actions/checkout@v2
