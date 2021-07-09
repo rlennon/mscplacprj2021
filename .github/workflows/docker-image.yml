@@ -41,7 +41,7 @@ jobs:
         with:
          image: ${{ secrets.DOCKER_REPO }}:msclprj2021-v${{github.run_number}}
          fail-build: true
-         severity-cutoff: high
+         severity-cutoff: critical
          acs-report-enable: true
       - 
        name: upload Anchore scan SARIF report
