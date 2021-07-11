@@ -17,4 +17,4 @@ As per the providers documents, When using in the workflow this action quickly v
 * Easy failure evaluation depending on vulnerability severity
 
 ## More Information
-[Visit](https://github.com/marketplace/actions/anchore-container-scan)
+[For More Information Visit Here](https://github.com/marketplace/actions/anchore-container-scan)
