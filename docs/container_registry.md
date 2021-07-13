@@ -18,7 +18,7 @@ Among the supported GitHub Packages registries Container Regsitry can be conside
 ### Container Registry
 
 * store and manage Docker and OCI images
-* package namespace: https://ghcr.io
+* package namespace: [https://ghcr.io](https://ghcr.io)
 * 500MB of Packages storage Free for public repositories
 * Easy integration with GitHub actions using GITHUB_TOKEN
 
