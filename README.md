@@ -16,8 +16,8 @@
   * [Meetings](#meetings)
   * [Communication](#communication)
   * [Other](#other)
-   * [Estimating Story Points](#estimating-story-points)
-   * [Scrum Master](#scrum-master)
+    * [Estimating Story Points](#estimating-story-points)
+    * [Scrum Master](#scrum-master)
 * [Workflow](#workflow)
   
 
