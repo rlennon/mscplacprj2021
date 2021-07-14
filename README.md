@@ -2,23 +2,23 @@
 
 ## Table of Contents
 
-  * [Preamble](#preamble)
-    * [Product Owner](#product-owner)
-    * [Team Members](#team-members)
-  * [Project Deadline](#project-deadline)
-  * [Project Specification](#project-specification)
-  * [Considerations](#considerations)
-  * [Useful Links](#useful-links)
-    * For more information visit our other sections
-  * [Risk Register](#risk-register)
-  * [Tenants of Design](#tenants-of-design)
-  * [Social Contract](#social-contract)
-    * [Meetings](#meetings)
-    * [Communication](#communication)
-    * [Other](#other)
-      * [Estimating Story Points](#estimating-story-points)
-      * [Scrum Master](#scrum-master)
-  * [Workflow](#workflow)
+* [Preamble](#preamble)
+  * [Product Owner](#product-owner)
+  * [Team Members](#team-members)
+* [Project Deadline](#project-deadline)
+* [Project Specification](#project-specification)
+* [Considerations](#considerations)
+* [Useful Links](#useful-links)
+  * For more information visit our other sections
+* [Risk Register](#risk-register)
+* [Tenants of Design](#tenants-of-design)
+* [Social Contract](#social-contract)
+  * [Meetings](#meetings)
+  * [Communication](#communication)
+  * [Other](#other)
+   * [Estimating Story Points](#estimating-story-points)
+   * [Scrum Master](#scrum-master)
+* [Workflow](#workflow)
   
 
    
@@ -61,9 +61,9 @@ CleanerCode is a very large company with many divisions. The task is to create p
        <To be filled>
 ## Useful Links
 
-* Slack: https://app.slack.com/client/T84LE6L6R/C0232F5G9T7
-* GitHub Tasks: to manage project tasks
-* GitHub: https://github.com/rlennon/mscplacprj2021
+* [Slack](https://app.slack.com/client/T84LE6L6R/C0232F5G9T7)
+* [Task Management](https://github.com/rlennon/mscplacprj2021/projects)
+* [GitHub](https://github.com/rlennon/mscplacprj2021)
     
 ### For more information visit our other sections
 Section | Description
