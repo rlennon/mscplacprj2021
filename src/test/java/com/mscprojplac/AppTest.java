@@ -83,9 +83,18 @@ public class AppTest {
 	 */
 	@Test
 	public void testSetValue2() {
-		Calculation.setValue1(10);
-		int num = Calculation.getValue1();
+		Calculation.setValue2(10);
+		int num = Calculation.getValue2();
 		assertEquals(num,10);
+	}
+
+	/** Test method for addition*/
+	@Test
+	public void testAddition() {
+		int num1 = 100;
+		int num2 = 50;
+		Calculator calculator= new Calculator(num1, num2);
+		assertEquals(calculator.addition(), 150);
 	}
 
 }
