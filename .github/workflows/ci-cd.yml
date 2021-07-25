@@ -54,7 +54,7 @@ jobs:
 
   docker:
     name: Docker Build, Scan, Push
-    if: github.ref == 'refs/head/main'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: codacy-security-scan
     steps:
