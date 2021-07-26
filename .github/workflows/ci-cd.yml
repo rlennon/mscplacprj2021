@@ -1,0 +1,114 @@
+# This workflow checks out code, performs a Codacy security scan 
+# on specified branches on specified events
+# and integrates the results with the
+# GitHub Advanced Security code scanning feature.  
+# Then it performs build, scan, and push the docker image to private docker repo from main only.
+
+name: CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ main ]
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.txt'
+#   schedule:
+#  Runs at 09:00 UTC every day   
+#   - cron: '00 09 * * *' 
+
+jobs:
+  codacy-security-scan:
+    name: Codacy Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository to the GitHub Actions runner
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Execute Codacy Analysis CLI and generate a SARIF output with the security issues identified during the analysis
+      - name: Run Codacy Analysis CLI
+        uses: codacy/codacy-analysis-cli-action@1.1.0
+        with:
+       
+# sicne it is not sure that Integration with Codacy for client-side tools is necessary, 
+# this version of the script omit the following line. 
+#           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+# generate a SARIF file containing the scan results
+          verbose: true
+          output: results.sarif
+          format: sarif
+          # Adjust severity of non-security issues
+          gh-code-scanning-compat: true
+          # Force 0 exit code to allow SARIF file generation
+          # This will handover control about PR rejection to the GitHub side
+          max-allowed-issues: 2147483647
+
+      # Upload the SARIF file generated in the previous step
+      - name: Upload SARIF results file
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: results.sarif
+          
+
+  docker:
+    name: Docker Build, Scan, Push
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: codacy-security-scan
+    steps:
+#       - name:  Install
+#         run:
+#           sudo apt update && sudo apt upgrade -y 
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      -
+        name: Login to DockerHub
+        id : login
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v1 
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - 
+       name: build local container
+       uses: docker/build-push-action@v2
+       with:
+        context: .
+        tags: ${{ secrets.DOCKER_REPO }}:msclprj2021-v${{github.run_number}}
+        push: false
+        load: true
+      - 
+        name: Scan image
+        uses: anchore/scan-action@v2
+        id: scanImage
+        with:
+         image: ${{ secrets.DOCKER_REPO }}:msclprj2021-v${{github.run_number}}
+         fail-build: true
+         severity-cutoff: critical
+         acs-report-enable: true
+      - 
+       name: upload Anchore scan SARIF report
+       uses: github/codeql-action/upload-sarif@v1
+       with:
+        sarif_file: ${{ steps.scanImage.outputs.sarif }}
+      - 
+        name: Inspect action SARIF report
+        run: cat ${{ steps.scanImage.outputs.sarif }}
+      -
+        name: Build and push
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ secrets.DOCKER_REPO }}:msclprj2021-v${{github.run_number}}
+
+         # Use an external cache source for the build, in this case DockerHub repo
+          cache-from: type=registry,ref=${{ secrets.DOCKER_REPO }}:msclprj2021-v${{github.run_number}} 
+          cache-to: type=inline # inline writes the cache metadata into the image configuration
