@@ -58,7 +58,7 @@ CleanerCode is a very large company with many divisions. The task is to create p
     Define the buisness Requirements
 
 ## Considerations
-       <To be filled>
+       <TBD>
 ## Useful Links
 
 * [Slack](https://app.slack.com/client/T84LE6L6R/C0232F5G9T7)
