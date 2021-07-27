@@ -1,8 +1,11 @@
-# This workflow checks out code, performs a Codacy security scan 
+# This workflow checks out code, 
+# generate code covearge reports, 
+# performs a Codacy security scan 
 # on specified branches on specified events
 # and integrates the results with the
 # GitHub Advanced Security code scanning feature.  
-# Then it performs build, scan, and push the docker image to private docker repo from main only.
+# Then it performs build, scan, 
+# and push the docker image to private docker repo from main only.
 
 name: CI/CD
 
