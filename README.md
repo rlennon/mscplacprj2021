@@ -176,7 +176,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
 #### Estimating Story Points 
 Within Planning Poker
 
-The teams team's velocity is calculated by <dividing the the number of points burned each sprint divided by no of sprints>. The Velocity chart is used for this calculation.
+The teams team's velocity is calculated by dividing the the number of points burned each sprint divided by no of sprints. The Velocity chart is used for this calculation.
 
 The teams current story point velocity is "<Choose the number!>".
 
