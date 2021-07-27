@@ -9,12 +9,17 @@ name: CI/CD
 on:
   push:
     branches: [ main, develop ]
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.txt'
+      - 'target/**'
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ main ]
     paths-ignore:
       - '**/*.md'
       - '**/*.txt'
+      - 'target/**'
 #   schedule:
 #  Runs at 09:00 UTC every day   
 #   - cron: '00 09 * * *' 
