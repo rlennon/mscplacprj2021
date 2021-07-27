@@ -6,6 +6,7 @@
 # GitHub Advanced Security code scanning feature.  
 # Then it performs build, scan, 
 # and push the docker image to private docker repo from main only.
+###############
 
 name: CI/CD
 
